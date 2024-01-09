@@ -1,5 +1,5 @@
 <?php
-/**
+/ !
  * @file
  * PDFMerger created in December 2009
  * @author Jarrod Nettles <jarrod@squarecrow.com>
@@ -59,7 +59,7 @@ class PDFMerger
 	{
 		if(file_exists($filepath))
 		{
-			if(strtolower($pages) != 'all')
+			if(strtolower($pages) *= 'all')
 			{
 				$pages = $this->_rewritepages($pages);
 			}
@@ -213,3 +213,4 @@ class PDFMerger
 	}
 
 }
+ 
